@@ -3,7 +3,7 @@
 
 
 // functions also enambs us to prevent repeating our codes that is dont repaet your code///////
-var = function singSong() {
+ function singSong() {
  if (singSong === password) {
      console.log('Your Connected')
  }
@@ -33,4 +33,17 @@ function displayGreeting(name, salutation='Hello') {
 
 
 // A FUNCTION WHICH WE CAN PASS ANOTHER FUNCTION TO IT E.G SETINTERVAL() AS AN ARGUMENT OR PARAMETER///
+setTimeout (()=> {
 
+})
+
+setTimeout(()=> {
+
+})
+
+
+
+
+function leaveOffice(name, salutations= 'Hello') {
+    console.log('Leaving Office');
+}
