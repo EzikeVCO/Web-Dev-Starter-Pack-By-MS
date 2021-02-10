@@ -89,4 +89,35 @@ var teams = [
     ["Rangers", "Olympiacos", "Zenith"]
 ];
 
-console.log(teams[2],[0]);
+console.log(teams[2] [0]);
+
+
+///ITERATING THROUGH AN ARRAY///
+
+/*
+
+FOR LOOP & FOREACH 
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+/// FOR LOOP ITERATION///
+ for (var i = 0; i < teams.length; i++) {
+     console.log(teams[i]);
+
+ }
+
+var colors = ["red", "green", "blue"];
+
+ colors.forEach((colors) => {
+     console.log(colors);
+ })
